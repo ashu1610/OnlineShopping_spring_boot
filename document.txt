@@ -1,0 +1,38 @@
+https://github.com/ashu1610/OnlineShopping_spring_boot
+
+sample output
+{
+  "header": {
+    "code": "string",
+    "timeStamp": "2023-05-19T07:58:46.627Z",
+    "traceId": "string"
+  },
+  "data": {}
+}
+
+----------------------------------------------------------------------------------------
+incorrect Category
+{
+  "header": {
+    "code": "400",
+    "timeStamp": "2023-05-19T07:59:43.083+00:00",
+    "traceId": "64672c6f4b092f861b26fa483940ca8d"
+  },
+  "data": "Bad Api Request Or Invalid Product Category !!!"
+}
+
+------------------------------------------------------------------------------------------
+mandatory fields
+{
+    "header": {
+        "code": "400",
+        "timeStamp": "2023-05-19T08:16:54.628+00:00",
+        "traceId": "646730766d5591a7f8580821e6d05415"
+    },
+    "data": [
+        "name -> must not be empty",
+        "name -> name should have at least 2 characters"
+    ]
+}
+
+------------------------------------------------------------------------------------------
