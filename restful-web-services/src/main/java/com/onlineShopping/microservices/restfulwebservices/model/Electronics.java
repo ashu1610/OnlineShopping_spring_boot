@@ -31,13 +31,10 @@ public class Electronics {
     @NotEmpty
     @Size(min = 10,message = "description should have at least 10 characters")
     private String description;
-    @NotEmpty
     @Schema(description = "product price information")
     private Price price;
-    @NotEmpty
     @Schema(description = "product inventory details")
     private Inventory inventory;
-    @NotEmpty
     @Schema(description = "product attributes")
     private List<Attributes> attributes;
 }
